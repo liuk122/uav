@@ -1,2 +1,1 @@
-# uav
-uav
+This code is applicable for autonomous outdoor air drops of rescue supplies by drones (UAV). Its main functions are: connecting to the QGC ground station to set waypoints and upload them, starting the motion control node on the terminal, and the drone will fly according to the uploaded waypoints, with a flight altitude set at 12 meters. During the flight, if search and rescue personnel are identified, the drone will descend to 8 meters to drop rescue supplies while taking photos and uploading the images and location information to the cloud, and will continuously track the rescued personnel.
