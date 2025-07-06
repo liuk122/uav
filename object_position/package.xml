@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>object_position</name>
+  <version>0.0.1</version>
+  <description>The object_position package for ROS2 Humble</description>
+  <maintainer email="chutter@uos.de">clemens</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>tf2_ros</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>geometry_msgs</depend>
+  
+  <depend>ai_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

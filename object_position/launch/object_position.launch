@@ -1,0 +1,3 @@
+<launch>
+    <node name='object_position' pkg="object_position" type="object_position" output="screen" />
+</launch>
